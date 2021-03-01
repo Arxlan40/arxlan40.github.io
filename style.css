@@ -1,0 +1,134 @@
+html,
+body {
+  margin: 0;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  font-family: "Lato", sans-serif;
+}
+
+.dp {
+  width: 300px;
+  height: 300px;
+  border-radius: 80%;
+  border-top-left-radius: 60%;
+  border-top-right-radius: 60%;
+  border-bottom-right-radius: 60%;
+  border-bottom-left-radius: 60%;
+}
+.link {
+  font-size: 18px;
+  margin-right: 30px;
+  color: rgb(14, 0, 14);
+}
+.links {
+  font-family: "Shippori Mincho", serif;
+  display: flex;
+  list-style-type: none;
+  margin-left: auto;
+  align-items: center;
+  padding-right: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  font-family: "Shippori Mincho", serif;
+
+  display: flex;
+  background-color: rgb(136, 175, 219);
+  justify-content: lceft;
+}
+nav h1 {
+  padding-left: 20px;
+  color: rgb(43, 39, 39);
+}
+.list {
+  font-family: "Shippori Mincho", serif;
+  font-size: 20px;
+}
+#flex1 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 65px;
+}
+
+.intro-text {
+  font-family: "Shippori Mincho", serif;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-left: 100px;
+}
+footer {
+  font-family: "Shippori Mincho", serif;
+
+  display: flex;
+  background-color: rgb(136, 175, 219);
+  display: block;
+  position: fixed;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+.footer_title {
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.find_me {
+  display: flex;
+  font-family: "Shippori Mincho", serif;
+
+  padding-left: 30px;
+  padding-top: 70px;
+}
+.find_me_title {
+  justify-content: left;
+  font-size: 20px;
+  margin: 20px;
+  height: 25px;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 40%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-linkedin {
+  background: #0e76a8;
+  color: white;
+}
+.fa-medium {
+  background: #000d13;
+  color: white;
+}
+.fa-github {
+  background: #090b0c;
+  color: white;
+}
